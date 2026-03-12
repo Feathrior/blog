@@ -20,16 +20,16 @@
   <title>hexo安装纪实 - FZR's Blog</title>
 
   
-    <meta name="description" content="Day 4我的博客总算顺利运转了，我不禁松了口气。历时三天，换了各种不同的技术栈，最后还是回归到hexo，并不是因为其性能突出或高度自定义（虽然hexo确实有这些优良品质），而是我不想在网页技术，外观方面耗费太多时间了。说起时间，我不由得想起了我从少年到青年的个网风云。13岁那年，我第一次有了搭建个人博客的想法，中间经过历次尝试，从最开始的简易html网页到后来开始尝试运用react，svelte">
+    <meta name="description" content="生命是一场由生向死的旅程，博客是记录生命的过程。  Day 1今天是我做个人博客的第一天，我初步了解了各个博客主流框架，并决定选择Hexo作为我的框架使用。无他，Hexo里的主题太多太美了。然而在部署主题的时候却遇到了很多阻碍：有的主题压根跟现代hexo不兼容，有的主题无法通过npm下载最新版，有的主题甚至根本没法应用，是孑遗的一支。npm的下载速度也十分让人着急。虽然已经换源，有的主题依然要下">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo安装纪实">
 <meta property="og:url" content="http://example.com/2026/03/11/hexo%E5%AE%89%E8%A3%85%E7%BA%AA%E5%AE%9E/">
 <meta property="og:site_name" content="FZR&#39;s Blog">
-<meta property="og:description" content="Day 4我的博客总算顺利运转了，我不禁松了口气。历时三天，换了各种不同的技术栈，最后还是回归到hexo，并不是因为其性能突出或高度自定义（虽然hexo确实有这些优良品质），而是我不想在网页技术，外观方面耗费太多时间了。说起时间，我不由得想起了我从少年到青年的个网风云。13岁那年，我第一次有了搭建个人博客的想法，中间经过历次尝试，从最开始的简易html网页到后来开始尝试运用react，svelte">
+<meta property="og:description" content="生命是一场由生向死的旅程，博客是记录生命的过程。  Day 1今天是我做个人博客的第一天，我初步了解了各个博客主流框架，并决定选择Hexo作为我的框架使用。无他，Hexo里的主题太多太美了。然而在部署主题的时候却遇到了很多阻碍：有的主题压根跟现代hexo不兼容，有的主题无法通过npm下载最新版，有的主题甚至根本没法应用，是孑遗的一支。npm的下载速度也十分让人着急。虽然已经换源，有的主题依然要下">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20250701091731.jpg">
 <meta property="article:published_time" content="2026-03-11T15:57:27.000Z">
-<meta property="article:modified_time" content="2026-03-12T10:02:09.589Z">
+<meta property="article:modified_time" content="2026-03-12T15:30:16.508Z">
 <meta property="article:author" content="FZR">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/%E8%81%94%E6%83%B3%E6%88%AA%E5%9B%BE_20250701091731.jpg">
@@ -48,7 +48,7 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"FZR","sameAs":[],"image":"/images/联想截图_20250701091731.jpg"},"dateCreated":"2026-03-11T23:57:27+08:00","dateModified":"2026-03-12T18:02:09+08:00","datePublished":"2026-03-11T23:57:27+08:00","description":"","headline":"hexo安装纪实","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2026/03/11/hexo%E5%AE%89%E8%A3%85%E7%BA%AA%E5%AE%9E/"},"publisher":{"@type":"Organization","name":"FZR","sameAs":[],"image":"/images/联想截图_20250701091731.jpg","logo":{"@type":"ImageObject","url":"/images/联想截图_20250701091731.jpg"}},"url":"http://example.com/2026/03/11/hexo%E5%AE%89%E8%A3%85%E7%BA%AA%E5%AE%9E/","image":[]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"FZR","sameAs":[],"image":"/images/联想截图_20250701091731.jpg"},"dateCreated":"2026-03-11T23:57:27+08:00","dateModified":"2026-03-12T23:30:16+08:00","datePublished":"2026-03-11T23:57:27+08:00","description":"","headline":"hexo安装纪实","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2026/03/11/hexo%E5%AE%89%E8%A3%85%E7%BA%AA%E5%AE%9E/"},"publisher":{"@type":"Organization","name":"FZR","sameAs":[],"image":"/images/联想截图_20250701091731.jpg","logo":{"@type":"ImageObject","url":"/images/联想截图_20250701091731.jpg"}},"url":"http://example.com/2026/03/11/hexo%E5%AE%89%E8%A3%85%E7%BA%AA%E5%AE%9E/","image":[]}</script>
   
 </head>
 <body>
@@ -67,7 +67,7 @@
 
 
 
-<widget class="widget-wrapper recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2026/03/12/hello-world/"><span class="title">Hello World</span></a><a class="item title" href="/2026/03/11/hexo%E5%AE%89%E8%A3%85%E7%BA%AA%E5%AE%9E/"><span class="title">hexo安装纪实</span></a></div></widget>
+<widget class="widget-wrapper recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2026/03/11/hexo%E5%AE%89%E8%A3%85%E7%BA%AA%E5%AE%9E/"><span class="title">hexo安装纪实</span></a><a class="item title" href="/2026/03/12/hello-world/"><span class="title">Hello World</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
@@ -80,7 +80,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E7%8B%AC%E7%99%BD/">独白</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2026-03-11T15:57:27.000Z">2026-03-11</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2026-03-12T10:02:09.589Z">2026-03-12</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2026-03-11T15:57:27.000Z">2026-03-11</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2026-03-12T15:30:16.508Z">2026-03-12</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -91,10 +91,15 @@
     </div>
     
   </div>
-  </div><article class="md-text content"><h1 id="Day-4"><a href="#Day-4" class="headerlink" title="Day 4"></a>Day 4</h1><p>我的博客总算顺利运转了，我不禁松了口气。历时三天，换了各种不同的技术栈，最后还是回归到<code>hexo</code>，并不是因为其性能突出或高度自定义（虽然<code>hexo</code>确实有这些优良品质），而是我不想在网页技术，外观方面耗费太多时间了。说起时间，我不由得想起了我从少年到青年的个网风云。<br>13岁那年，我第一次有了搭建个人博客的想法，中间经过历次尝试，从最开始的简易html网页到后来开始尝试运用react，svelte，再到用近乎作弊的方法获得个网，历时已经五年有余。五年时间倏忽而逝。俗话说：迎来送往。我遇到了很多生命中的大考：<code>高考</code>，<code>生物联赛</code>，<code>中考</code>，与很多人相处熟悉，成为朋友，又看着他们一个个淡出了我的生活，内心不由得为那些还在坚持联系的朋友而感到感激。我喜欢他们每一个人。<br>成长的过程总是要经历阵痛。经过高压学习的</p>
-<blockquote>
-<p>生命是一场由生向死的旅程，博客是记录生命的过程。希望在之后的人生路里，我身上发生的大事都能有充足的证据，详尽的记录。珍惜现在所拥有的，保持一颗赤诚之心，做一汪清澈而深刻的池水。</p>
+  </div><article class="md-text content"><blockquote>
+<p>生命是一场由生向死的旅程，博客是记录生命的过程。</p>
 </blockquote>
+<h1 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h1><p>今天是我做个人博客的第一天，我初步了解了各个博客主流框架，并决定选择Hexo作为我的框架使用。无他，Hexo里的主题太多太美了。<br>然而在部署主题的时候却遇到了很多阻碍：有的主题压根跟现代hexo不兼容，有的主题无法通过npm下载最新版，有的主题甚至根本没法应用，是孑遗的一支。<br>npm的下载速度也十分让人着急。虽然已经换源，有的主题依然要下载很长时间（也许还会报错），这也为我的建设过程增添了不少阻力。</p>
+<h1 id="Day-2"><a href="#Day-2" class="headerlink" title="Day 2"></a>Day 2</h1><p>我暂时放弃了Hexo，决定使用svelte自建个网。但是却在读取md文件时遇到了阻碍。</p>
+<h1 id="Day-3"><a href="#Day-3" class="headerlink" title="Day 3"></a>Day 3</h1><p>我放弃了svelte自建个网，转而开始使用hugo。<br>hugo框架是一个较新的框架（从它使用go语言就可见一斑），因而配置主题时没有遇到太多阻碍。然而，在将hugo项目翻译成静态网页时，我却遇到了问题。</p>
+<h1 id="Day-4"><a href="#Day-4" class="headerlink" title="Day 4"></a>Day 4</h1><p>我的博客总算顺利运转了，我不禁松了口气。历时三天，换了各种不同的技术栈，最后还是回归到<code>hexo</code>，并不是因为其性能突出或高度自定义（虽然<code>hexo</code>确实有这些优良品质），而是我不想在网页技术，外观方面耗费太多时间了</p>
+<h1 id="Day-5"><a href="#Day-5" class="headerlink" title="Day 5"></a>Day 5</h1><p>今天我为我的博客高度定制了外观，使其更加符合我的审美，另外，还将其部署在了netlify上。这个过程说起来简单，实则困难重重：为了找到对应某一个元素的scss文件，我常常需要遍历主题中所有的scss，真是费工夫。另外，在部署网站的时候，我还面对了混乱的node_module包管理模式，在先前的项目坏档之后，毅然决然重开项目，重新部署。（事实证明这个决策十分正确）最终，我的博客总算上限互联网，在互联网上有了我的痕迹。</p>
+<h1 id="后记与简单的回顾"><a href="#后记与简单的回顾" class="headerlink" title="后记与简单的回顾"></a>后记与简单的回顾</h1><p>13岁那年，我第一次有了搭建个人博客的想法，中间经过历次尝试，从最开始的简易html网页到后来开始尝试运用react，svelte，再到用近乎作弊的方法获得个网，历时已经五年有余。五年时间倏忽而逝。俗话说：迎来送往。我遇到了很多生命中的大考：<code>高考</code>，<code>生物联赛</code>，<code>中考</code>，与很多人相处熟悉，成为朋友，又看着他们一个个淡出了我的生活，内心不由得为那些还在坚持联系的朋友而感到感激。我喜欢他们每一个人。</p>
 </article>
 <div class="article-footer">
     <section id="license">
@@ -120,7 +125,7 @@
 
 
 
-<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Day-4"><span class="toc-text">Day 4</span></a></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>回到顶部</span></a></div></widget>
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Day-1"><span class="toc-text">Day 1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Day-2"><span class="toc-text">Day 2</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Day-3"><span class="toc-text">Day 3</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Day-4"><span class="toc-text">Day 4</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Day-5"><span class="toc-text">Day 5</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0%E4%B8%8E%E7%AE%80%E5%8D%95%E7%9A%84%E5%9B%9E%E9%A1%BE"><span class="toc-text">后记与简单的回顾</span></a></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>回到顶部</span></a></div></widget>
 </div></aside><div class='float-panel'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
