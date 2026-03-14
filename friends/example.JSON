@@ -3,9 +3,11 @@
   "content": [
     {
       "title": "xaoxuu",
-      "url": "https://blog.dawnocean.site/",
-      "description": "无数的远方，无穷的人们，都和我有关",
-      "icon": "https://blog.dawnocean.site/assets/img/avatar.jpg",
+      "url": "https://xaoxuu.com",
+      "description": "",
+      "icon": "",
+      "snapshot": "https://gcore.jsdelivr.net/gh/cdn-x/xaoxuu@main/snapshot/2025.webp",
+      "feed": "https://xaoxuu.com/atom.xml",
       "posts": [
         {
           "title": "连续两个晚上做梦笑醒",
